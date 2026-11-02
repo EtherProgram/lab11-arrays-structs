@@ -1,0 +1,48 @@
+COEN 2210 - Lab 11
+Part 5 - Test Cases
+
+TEST 1: Observation count validation
+Inputs: 0, then 2.
+Expected: Reject 0 and allow the user to enter 2 observations.
+Observed: Pending.
+
+TEST 2: Display after entering two observations
+Inputs: ID 151, FL, Gadsden County, 22510, 15582, 6811, 69.58.
+ID 46, PA, Montour County, 8023, 3364, 4574, 42.38.
+Expected: Display two aligned rows with the correct IDs and two decimal places.
+Observed: Two rows displayed correctly. Observations displayed: 2.
+
+TEST 3: Display a second time
+Inputs: Menu option 1.
+Expected: Display the same two observations without requesting the data again.
+Observed: The same two observations were displayed. Observations displayed: 2.
+
+TEST 4: Negative vote count
+Inputs: A negative vote count, followed by a valid value.
+Expected: Reject the negative value and request the field again.
+Observed: Pending.
+
+TEST 5: Democratic share out of range
+Inputs: 101, followed by a valid percentage.
+Expected: Reject 101 and request the percentage again.
+Observed: Pending.
+
+TEST 6: Text in a numeric field
+Inputs: Text, followed by a valid number.
+Expected: Recover the input stream and continue without an infinite error loop.
+Observed: Pending.
+
+TEST 7: Invalid menu option
+Inputs: Menu option 9.
+Expected: Display an invalid option message and preserve the observations.
+Observed: The program displayed an invalid option message.
+
+TEST 8: Exit
+Inputs: Menu option 11.
+Expected: Terminate the program.
+Observed: Pending.
+
+TEST 9: One observation
+Inputs: Enter 1 observation.
+Expected: Display only one row and report Observations displayed: 1.
+Observed: Pending.

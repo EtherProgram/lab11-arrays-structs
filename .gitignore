@@ -1,0 +1,11 @@
+# Compiled programs for Windows and Mac
+/calculator/BasicCalculator
+/calculator/BasicCalculator.exe
+/dispatch_demo/dispatch_demo
+/dispatch_demo/dispatch_demo.exe
+/analyzer/CoReDataAnalyzer
+/analyzer/CoReDataAnalyzer.exe
+*.o
+*.obj
+*.pdb
+*.dSYM/
